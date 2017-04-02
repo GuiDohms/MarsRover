@@ -1,10 +1,19 @@
 
 public class Plateau {
-	private int [] [] plateau;
-	
-	public Plateau(int x, int y) {
-		plateau = new int [x][y];
+	private int maxX;
+	private int maxY;
+
+	//creates the Plateau informing the max posx and posy
+	public Plateau(int maxX, int maxY) {
+		this.maxX = maxX;
+		this.maxY = maxY;
 	}
-	
-	
+
+	public int getMaxX() {
+		return this.maxX;
+	}
+
+	public int getMaxY() {
+		return this.maxY;
+	}
 }
