@@ -27,7 +27,7 @@ public class Navigator {
 		System.out.println("----------------------------");
 		System.out.println("-----SHOW ME YOUR MOVE------");
 		System.out.println("----------------------------");
-		System.out.println("Exemple:" + '\n' + "5 5" + '\n' + "1 2 N" + '\n' + "LMLMLMLMM" + '\n' + "Then press dot and Enter");
+		System.out.println("Exemple:" + '\n' + "5 5" + '\n' + "1 2 N" + '\n' + "LMLMLMLMM" + '\n' + "3 3 E" + '\n' + "MMRMMRMRRM" + '\n' + "Then press dot and Enter");
 		
 		while(!move.equals(".")){
 			move = scanner.nextLine();
